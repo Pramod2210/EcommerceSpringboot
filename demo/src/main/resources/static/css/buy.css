@@ -1,0 +1,70 @@
+.head{
+    display: flex;
+    justify-content:space-between;
+     background-color: gold;
+     height:75px ;
+     padding: 0 10px;
+     
+   }
+   .box img{
+    padding-top: 10px;
+    width: 55px;
+    height: 52px;
+    padding-left: 5px;
+}
+.search{
+    padding:20px 0;
+   
+ }
+
+ .input-group input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+.input-group button{
+    background-color: rgb(26, 216, 26);
+    height: 40px;
+    border-radius: 5px;
+
+}
+ .home a{
+    text-decoration: none;
+    color: blue;
+  
+}
+.home{
+    padding-top: 10px;
+}
+
+.nav-item{
+    padding-top: 10px;
+}
+
+.buy{
+    border: 2px solid red;
+    
+}
+.doc{
+    padding: 40px;
+    border: 2px solid blue;
+    margin: 40px;
+    line-height: 2.4;
+    margin-left: 100px;
+    padding-left: 150px;
+    
+}
+.make{
+    padding-top: 30px;
+}
+button{
+   width: 150px;
+   height: 40px;
+   font-weight: bold;
+   background-color: rgb(232, 210, 84);
+}
+#cancel{
+     background-color: brown;
+     color: white;
+     margin-left: 150px;
+}

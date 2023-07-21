@@ -1,0 +1,127 @@
+.head{
+ display: flex;
+ justify-content:space-between;
+  background-color: gold;
+  height:75px ;
+  padding: 0 10px;
+  
+}
+.box img{
+    padding-top: 10px;
+    width: 55px;
+    height: 52px;
+    padding-left: 5px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 15% 80%;
+    border: 3px solid red;
+    height: 800px;
+    gap:30px
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+   gap: 30px;
+   
+   padding-top: 10px;
+   margin-top: 10px;
+}
+.card-item{
+    width: 200px;
+    height: 300px;
+   gap: 10px;
+   padding: 20px;
+   margin: 20px;
+   padding-left: 30px;
+     
+}
+.item img{
+    width:200px;
+    height:200px;
+    border: 2px solid gold ;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link a{
+  color:red
+} 
+#B {
+    color:green;
+}
+#D{
+    color: rgb(0, 64, 255);
+}
+#R{
+  color: rgb(252, 5, 5);
+}
+
+.bars a{
+    text-decoration: none;
+    line-height: 2.5;
+    color:white;
+    font-size: 19px;
+    text-decoration:double;
+    padding-left: 10px;
+    
+ }
+.bars{
+    padding-top: 30px;
+    
+}
+.left{
+    
+    background-color:darkgray;
+}
+
+.search{
+   padding:20px 0;
+  
+}
+
+.input-group input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+.input-group button{
+    background-color: rgb(26, 216, 26);
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+
+.home a{
+    text-decoration: none;
+    color: blue;
+  
+}
+.home{
+    padding-top: 10px;
+}
+.one{
+    background-color:rgb(78, 78, 148);
+    
+    margin: 5px;
+}
+.two{
+    background-color:rgb(78, 78, 148);
+    
+    margin: 5px;
+}
+.three{
+    background-color:rgb(78, 78, 148);
+
+    margin: 5px;
+}
+.four{
+    background-color:rgb(78, 78, 148);
+  
+    margin: 5px;
+}

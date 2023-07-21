@@ -1,0 +1,102 @@
+
+body{
+  background-image:url('../Images/fullbackground.jpg');
+}
+
+
+*----------   Header-------------  */
+
+
+.navbar-text{
+    display: flex;
+   gap:30px;
+   transform: 1.1;
+   margin-right:20px;
+  
+}
+
+.navbar-text{
+  display:flex;
+  gap: 30px;
+  align-items: center;
+  
+}
+.navbar-text button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(226, 118, 17);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nav-item a{
+    transform: scale(1.1);
+}
+
+button{
+    color: blue;
+}
+
+ button:hover{
+    transform: scale(1.1);
+ }
+
+#log{
+    background-color: rgb(81, 251, 14);
+    color: aliceblue;
+}
+
+.nav-item img:hover{
+    transform: scale(1.3);
+    
+    }
+    
+     /*------------Section-1-----------*/
+   
+    
+     
+     .first{
+      
+        margin:30px 250px ;
+        text-align: center;
+        background-image: url("../Images/founder\ backgound.jpg");
+        color:bisque;
+     }
+
+     .second{
+        border: 2px solid red;
+        margin:100px 300px ;
+        text-align: center;
+        height: 200px;
+        padding-top: 34px;
+        background-image: url("../Images/background-about.jpg");
+        color:ghostwhite;
+     }
+     .second p{
+        padding-top: 30px;
+     }
+
+      .tank{
+        
+        margin:100px 20px ;
+      }
+
+
+
+
+
+
+    /*------------Footer-----------*/
+
+  .footer{
+    
+    background-color: rgb(23, 19, 19);
+  }
+
+  .foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    color: aliceblue;
+  }

@@ -1,0 +1,50 @@
+
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-left:48%;
+    margin-top:20px; 
+}
+
+.container{
+    border: 2px solid rgb(0, 195, 255);
+    margin-left:39%;
+    margin-top: 20px;
+    width: 25%;
+    height:300px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.login{
+    line-height: 2.8;
+}
+ input{
+    border-radius: 5px;
+    border: 2px solid blue;
+    height: 20px;
+ }
+
+ button{
+   width: 80px;
+   height: 40px;
+    background-color: green;
+    color: blanchedalmond;
+ }
+.button{
+    padding-top: 20px;
+}
+ .link{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    
+ }
+
+ #loginbutton{
+    background-color: rgb(97, 216, 97);
+    height: 30pxs;
+    border-radius: 3px;
+ }

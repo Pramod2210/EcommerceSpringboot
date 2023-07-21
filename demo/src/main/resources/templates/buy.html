@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+    <head>
+    <link href="../static/css/buy.css"  th:href="@{/css/buy.css}" rel="stylesheet">
+    <title>men</title>
+    </head>
+    <body>
+    <header>
+        <div class="head">
+        <div class="box">
+          <img src="../static/Images/Logo.jpg"  th:src="@{/Images/Logo.jpg}" alt="logo"/>
+            </div>
+            <div class="home" >
+              <a href="/"  ><h3>Home</h3></a>
+            </div>
+
+          <div class="search">
+            <div class="input-group">
+              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <button type="button" class="btn btn-outline-primary">search</button>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="cart"><img src="../static/Images/cart.jpg"  th:src="@{/Images/cart.jpg}" width="45" height="45"/></a>
+            </div>
+          <div class="profile">
+            <img src="../static/Images/Profile.png"  th:src="@{/Images/Profile.png}" alt="logo" width="50" height="50"/><br>
+            <select id="admin">
+            <option><a href="">profile</a></option>
+            <option><a href="">Setting</a></option>
+            <option><a href="">Logout</a></option>
+            </select>
+        </div>
+          </div>
+        </div>
+  
+      <div class="buy">
+        <div class="doc">
+          <form>
+            <label id="temp">Quantity</label>
+            <input type="number" id="number" min="1" max="10"><br>
+            <label id="temp">Address</label><br>
+            <input id="Address" name="address" type="radio">Same as profile address</input><br>
+            <input id="Address" name="address" type="radio">New</input><br>
+  
+            <label id="country">Country</label>
+            <input type="text" id="country" required>
+            <label id="state">State</label>
+            <input type="text" id="state" required>
+            <label id="City">City</label>
+            <input type="text" id="city" required><br>
+            <label id="country">Pin</label>
+            <input type="text" id="pin" required>
+            <label id="country">Street</label>
+            <input type="text" id="stret" required>
+          </form>
+          <div class="payment">
+            <label id="payment">Payment-Mode</label><br>
+            <input type="radio" name="pay" id="pay">Cash on delivery</input>
+            <input type="radio" name="pay" id="pay">Online</input>
+          </div>
+          <div class="type">
+            <label id="payment">Select-mode</label><br>
+            <input id="mode" name="mode" type="radio"><img src="../static/Images/gpay.jpg"  th:src="@{/Images/gpay.jpg}" width="50" height="50"/></input>
+            <input id="mode" name="mode" type="radio"><img src="../static/Images/phonepay.png"  th:src="@{/Images/phonepay.png}" width="50" height="50"/></input>
+            <input id="mode" name="mode" type="radio"><img src="../static/Images/paytm.jpg"  th:src="@{/Images/paytm.jpg}" width="50" height="50"/></input>
+            <input id="mode" name="mode" type="radio"><img src="../static/Images/bhim.jpg"  th:src="@{/Images/bhim.jpg}" width="50" height="50"/></input>
+            <input id="mode" name="mode" type="radio">Net-banking</input>
+            <input id="mode" name="mode" type="radio">Debit-card</input>
+            <input id="mode" name="mode" type="radio">Credit card</input>
+  
+          </div>
+          <div class="make">
+             <button onclick="payment()">Make-payment</button>
+             <button id="cancel" onclick="stop()">Cancel</button>
+          </div>
+        </div>
+      </div>
+
+     <script src="./js/buy.js"></script>
+    
+
+  </body>
+</html>

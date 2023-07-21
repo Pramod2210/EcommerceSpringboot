@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/about.css" th:href="@{/css/about.css}"/>
+    <title>PBazaar Shopping</title>
+
+  </head>
+  <body>
+
+    <div class="titlebar">
+      <div class="heading">
+
+   <nav class="navbar navbar-expand-lg navbar-light p-1 mb-2 bg-primary text-white">
+       <div class="logo">
+           <img src="../static/Images/Logo.jpg"  th:src="@{/Images/Logo.jpg}" alt="Logo" height="60" width="60">
+       </div>
+       <div class="collapse navbar-collapse" id="navbarText">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="Aboutus">About</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#foo">Contact</a>
+           </li>
+           <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+             </form>
+         </ul>
+         <span class="navbar-text">
+           <div class="nav-item">
+           <a class="nav-link" href="cart"><img src="../static/Images/cart.jpg"  th:src="@{/Images/cart.jpg}" width="45" height="45"/></a>
+           </div>
+           <div class="nav-item">
+               <button id="log"><a class="nav-link" href="loginp">Login</a></button>
+           </div>
+             <div class="nav-item">
+               <button><a class="nav-link" href="signup">Signup</a></button>
+             </div>
+         </span>
+       </div>
+     </nav>
+      </div>
+    </div>
+     
+     <!--------About-->
+       
+     <div class="about-us">
+        <div class="first">
+            <div class="phoo">
+              <img src="../static/Images/Logo.jpg"  th:src="@{/Images/Logo.jpg}" width="50" height="50"/>
+        </div>
+        <h1>PBazaar Story </h1>
+        <p>Get everything at one Place</p> 
+    </div>
+
+    <div class="second">
+        <div class="slogen">
+            <h2>LAUNCHED In 2023 </h2>
+            <p>Our company was founded on May 14, 2023, with the goal of providing customers with the best possible shopping experience.</p>
+        </div>
+    </div>
+
+    <div class="tank">
+        <div class="about">
+            <h4>About us</h4>
+            <p>
+                Welcome to PBazaar, your one-stop-shop for all your online shopping needs! Our company was founded on May 14, 2023, with the goal of providing customers with the best possible shopping experience. We are a team of dedicated professionals who are passionate about bringing you high-quality products at affordable prices.
+
+At PBazaar, we pride ourselves on offering a wide range of products to suit every need and budget. Whether you're looking for the latest fashion trends, cutting-edge technology, or everyday household essentials, we've got you covered. We work tirelessly to source the best products from around the world, so you don't have to.
+
+Our commitment to customer satisfaction is second to none. We believe that shopping online should be easy and hassle-free, which is why we offer a secure and user-friendly platform that makes browsing and purchasing a breeze. Our dedicated customer support team is always on hand to assist with any queries or concerns you may have, ensuring that your shopping experience is as seamless as possible.
+
+We are constantly striving to improve and innovate, and we welcome feedback from our customers. Your satisfaction is our top priority, and we are committed to delivering a shopping experience that exceeds your expectations.
+
+Thank you for choosing PBazaar, we look forward to serving you!
+            </p>
+        </div>
+    </div>
+     </div>
+
+     <!-- Footer-Section -->
+<div id="foo">
+    <div class="footer">
+        <div class="foot">
+          <div class="sector">
+            <h5>About</h5>
+            <ul>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Corprate Information</a></li>
+              <li><a href="">Developer</a></li>
+            </ul>
+          </div>
+          <div class="sector">
+            <h5>Mail us</h5>
+            <ul>
+              <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">support@PBazaar.com</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">PBazzar1Office@gmail.com</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">MumbaiOffice@gmail.com</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">Developer@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="sector">
+            <h5>Contact us</h5>
+            <ul>
+              <li>HelpLine: 1800 1000 0000</li>
+              <li>+91 9545443151</li>
+              <li>02181- 251291</li>
+            </ul>
+          </div>
+          <div class="sector">
+            <h5>Address</h5>
+            <a href="https://www.google.com/maps/search/Chikkehalli/@17.5731898,76.0465885,10.9z">
+           <p>Head Quater<br>At post Chikkehalli <br>Tal-Akkalkot, Dist-Solapur<br>Maharashtra,India<br>Pin-413216</p></a>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+     
+</html>

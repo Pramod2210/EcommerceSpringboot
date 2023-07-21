@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+    <head>
+      <link rel="stylesheet" href="../static/css/menstyle.css" th:href="@{/css/menstyle.css}"/>
+    <title>men</title>
+    </head>
+    <body>
+    <header>
+      <div class="head">
+        <div class="box">
+          <img src="../static/Images/Logo.jpg"  th:src="@{/Images/Logo.jpg}"alt="logo"/>
+            </div>
+              <div class="home" >
+                <a href="/"  ><h3>Home</h3></a>
+              </div>
+
+          <div class="search">
+            <div class="input-group">
+              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <button type="button" class="btn btn-outline-primary">search</button>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a class="nav-link" href="cart"><img src="../static/Images/cart.jpg"  th:src="@{/Images/cart.jpg}" width="45" height="45"/></a>
+            </div>
+            
+            
+          <div class="profile">
+            <img src="../static/Images/Profile.png"  th:src="@{/Images/Profile.png}" alt="logo" width="50" height="50"/><br>
+            <select id="admin">
+            <option><a href="">profile</a></option>
+            <option><a href="">Setting</a></option>
+            <option><a href="">Logout</a></option>
+            </select>
+        </div>
+        
+
+          </div>
+          
+        </div>
+    </header>
+
+    
+
+    <section>
+        <div class="container">
+          <div class="left">
+          <div class="bars">
+            <div class="one">
+              <a href="mentop">Top-Wear</a>
+          </div>
+          <div class="two">
+            <a href="menbot">Bottom-Wear</a>
+          </div>
+          <div class="three">
+            <a href="menacce">Accessories</a>
+          </div>
+          <div class="four">
+            <a href="menfoot">Footwear</a>
+          </div>
+          </div>
+          </div>
+         <div class="right">
+            <div class="card">
+              <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/a.jpg"  th:src="@{/Images/mfoot/a.jpg}" alt="item">
+            </div>
+            <div class="price">
+             <p>500Rs flt 20% off</p>
+            </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/17/sparx/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="17">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="sparx">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/a.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/b.jpg"  th:src="@{/Images/mfoot/b.jpg}" alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/18/lofer/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="18">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="lofer">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/b.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/c.jpg"  th:src="@{/Images/mfoot/c.jpg}" alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/19/sandel/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="19">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="sandel">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/c.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/d.jpg"  th:src="@{/Images/mfoot/d.jpg}"  alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/20/rainy/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="20">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="rainy">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/d.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/e.jpg"  th:src="@{/Images/mfoot/e.jpg}"  alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/21/sleeper/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="21">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="sleeper">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/e.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/f.jpg"  th:src="@{/Images/mfoot/f.jpg}"  alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/22/lofer/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="22">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="lofer">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/f.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/g.jpg"  th:src="@{/Images/mfoot/g.jpg}"  alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/23/sparx/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="23">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="sparx">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/g.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+          <div class="pp">
+          <div class="cart-item">
+            <div class="item">
+              <img src="../static/Images/mfoot/h.jpg"  th:src="@{/Images/mfoot/h.jpg}"  alt="item">
+            </div>
+            <div class="price">
+              <p>500Rs flt 20% off</p>
+             </div>
+            <div class="link">
+              <a href="buy" id="B">Buy</a>
+              <a href="" id="D">Detail</a>
+              <form action="/Addcart/24/shoose/500" method="post">
+                <!-- Add any necessary hidden fields for dynamic values -->
+                <input type="hidden" name="id" value="24">
+                <input type="hidden" name="price" value="500">
+                <input type="hidden" name="name" value="sparx">
+                <input type="hidden" name="imgurl" value="/Images/mfoot/h.jpg">
+                <!-- Add to Cart button as a form submission -->
+                <button type="submit">Add to Cart</button>
+              </form>
+              </div>
+          </div>
+          </div>
+         
+         </div>
+         </div>
+        </div>
+         
+    
+    </section>
+
+
+
+    </body>
+    </html>
+      
